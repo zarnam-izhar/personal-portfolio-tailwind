@@ -8,12 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        padding: '15px',
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        accent: '#08E95E',
+        customGray: '#c5c5c5',  
+        tagBlue: '#0abde3',
+        tagPurple: '#a55eea',
+        tagPink: '#ff5571',
+        tagYellow: '#deef26',
       },
     },
   },
   plugins: [],
 };
+
 export default config;
